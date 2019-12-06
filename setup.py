@@ -18,7 +18,7 @@ if __name__ == "__main__":
     for item in devices:
         clean_devices.append(item.split(":")[0])
 
-    os.system("clean")
+    os.system("clear")
     print("scanning... this operation take a long time")
 
     os.system("sudo rm -rf /tmp/HostLanUsers/scan_id.temp")
